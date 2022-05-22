@@ -1,0 +1,6 @@
+framework module Pods_HW2OfirGoren {
+  umbrella header "Pods-HW2OfirGoren-umbrella.h"
+
+  export *
+  module * { export * }
+}

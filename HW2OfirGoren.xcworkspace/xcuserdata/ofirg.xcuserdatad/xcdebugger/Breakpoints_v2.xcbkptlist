@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "2893054A-4D8C-4A73-9E86-9A16BB7DE7F1"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "12EFAEA3-2942-460F-8CD4-7DAD703F0165"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HW2OfirGoren/GameHandler.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "getQuestions()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "12EFAEA3-2942-460F-8CD4-7DAD703F0165 - 1dff3bc8577b56e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HW2OfirGoren.GameHandler.getQuestions() -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "HW2OfirGoren"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ofirg/Desktop/MobileProjects/IosProjects/HW2OfirGoren/HW2OfirGoren/HW2OfirGoren/GameHandler.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "12EFAEA3-2942-460F-8CD4-7DAD703F0165 - 1dff3bc8577b56e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HW2OfirGoren.GameHandler.getQuestions() -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "HW2OfirGoren"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ofirg/Desktop/MobileProjects/IosProjects/HW2OfirGoren/HW2OfirGoren/HW2OfirGoren/GameHandler.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "164">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "57FA9281-F33B-4F05-BC14-50FF1289023A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Objects/GameHandler.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "146"
+            endingLineNumber = "146"
+            landmarkName = "moveNextQuestion()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
