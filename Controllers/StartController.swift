@@ -14,7 +14,7 @@ class StartController: UIViewController {
     @IBOutlet weak var labelScore: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.myUserDefaults.deleteAll()
+        
         
         
     }
