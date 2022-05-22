@@ -7,23 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BAAAEE8D615E6641D13396A /* Pods_HW2OfirGoren.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7ED4CC3EDC575346B30121E /* Pods_HW2OfirGoren.framework */; };
 		66FD086B282CECC700F2985A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FD086A282CECC700F2985A /* AppDelegate.swift */; };
 		66FD086D282CECC700F2985A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FD086C282CECC700F2985A /* SceneDelegate.swift */; };
-		66FD086F282CECC700F2985A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FD086E282CECC700F2985A /* ViewController.swift */; };
 		66FD0872282CECC700F2985A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66FD0870282CECC700F2985A /* Main.storyboard */; };
 		66FD0874282CECC800F2985A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66FD0873282CECC800F2985A /* Assets.xcassets */; };
 		66FD0877282CECC800F2985A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66FD0875282CECC800F2985A /* LaunchScreen.storyboard */; };
+		66FD0881282D0C5D00F2985A /* ScaleProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FD0880282D0C5D00F2985A /* ScaleProgressBar.swift */; };
+		66FD0883282D1ED300F2985A /* ShapeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FD0882282D1ED300F2985A /* ShapeButton.swift */; };
+		66FD0889282D437000F2985A /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FD0888282D437000F2985A /* GameController.swift */; };
+		66FD088B282D492300F2985A /* StartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FD088A282D492300F2985A /* StartController.swift */; };
+		66FD088D282D50CB00F2985A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FD088C282D50CB00F2985A /* Extensions.swift */; };
+		66FD0898282E3F5000F2985A /* PresidentsNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FD0897282E3F5000F2985A /* PresidentsNames.swift */; };
+		66FD089A282E402600F2985A /* ParseJsonPresidents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FD0899282E402600F2985A /* ParseJsonPresidents.swift */; };
+		66FD089C282E474700F2985A /* GameHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FD089B282E474700F2985A /* GameHandler.swift */; };
+		66FD089E282E51A300F2985A /* President.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FD089D282E51A300F2985A /* President.swift */; };
+		66FD08A02830E0AC00F2985A /* MyUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FD089F2830E0AC00F2985A /* MyUserDefaults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C0B6D3CDC742AE068AD00F9 /* Pods-HW2OfirGoren.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HW2OfirGoren.release.xcconfig"; path = "Target Support Files/Pods-HW2OfirGoren/Pods-HW2OfirGoren.release.xcconfig"; sourceTree = "<group>"; };
 		66FD0867282CECC700F2985A /* HW2OfirGoren.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW2OfirGoren.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66FD086A282CECC700F2985A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66FD086C282CECC700F2985A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		66FD086E282CECC700F2985A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		66FD0871282CECC700F2985A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		66FD0873282CECC800F2985A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66FD0876282CECC800F2985A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66FD0878282CECC800F2985A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66FD0880282D0C5D00F2985A /* ScaleProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleProgressBar.swift; sourceTree = "<group>"; };
+		66FD0882282D1ED300F2985A /* ShapeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeButton.swift; sourceTree = "<group>"; };
+		66FD0888282D437000F2985A /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		66FD088A282D492300F2985A /* StartController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartController.swift; sourceTree = "<group>"; };
+		66FD088C282D50CB00F2985A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		66FD0897282E3F5000F2985A /* PresidentsNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresidentsNames.swift; sourceTree = "<group>"; };
+		66FD0899282E402600F2985A /* ParseJsonPresidents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseJsonPresidents.swift; sourceTree = "<group>"; };
+		66FD089B282E474700F2985A /* GameHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameHandler.swift; sourceTree = "<group>"; };
+		66FD089D282E51A300F2985A /* President.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = President.swift; sourceTree = "<group>"; };
+		66FD089F2830E0AC00F2985A /* MyUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUserDefaults.swift; sourceTree = "<group>"; };
+		9748FE04E197417C970981CB /* Pods-HW2OfirGoren.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HW2OfirGoren.debug.xcconfig"; path = "Target Support Files/Pods-HW2OfirGoren/Pods-HW2OfirGoren.debug.xcconfig"; sourceTree = "<group>"; };
+		D7ED4CC3EDC575346B30121E /* Pods_HW2OfirGoren.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HW2OfirGoren.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BAAAEE8D615E6641D13396A /* Pods_HW2OfirGoren.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66A0D51D283A914D0006B19B /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				66FD0897282E3F5000F2985A /* PresidentsNames.swift */,
+				66FD0899282E402600F2985A /* ParseJsonPresidents.swift */,
+				66FD089B282E474700F2985A /* GameHandler.swift */,
+				66FD089D282E51A300F2985A /* President.swift */,
+				66FD089F2830E0AC00F2985A /* MyUserDefaults.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
 		66FD085E282CECC700F2985A = {
 			isa = PBXGroup;
 			children = (
 				66FD0869282CECC700F2985A /* HW2OfirGoren */,
+				66A0D51D283A914D0006B19B /* Objects */,
+				66FD0891282E3D4000F2985A /* Controllers */,
+				66FD0896282E3E5700F2985A /* UtilsExtentios */,
+				66FD0893282E3DD300F2985A /* UiUtils */,
 				66FD0868282CECC700F2985A /* Products */,
+				CD1FA6F79D70AF2D2CD95539 /* Pods */,
+				905237E4F6A6BCE11D691DFE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +99,71 @@
 			children = (
 				66FD086A282CECC700F2985A /* AppDelegate.swift */,
 				66FD086C282CECC700F2985A /* SceneDelegate.swift */,
-				66FD086E282CECC700F2985A /* ViewController.swift */,
 				66FD0870282CECC700F2985A /* Main.storyboard */,
 				66FD0873282CECC800F2985A /* Assets.xcassets */,
 				66FD0875282CECC800F2985A /* LaunchScreen.storyboard */,
 				66FD0878282CECC800F2985A /* Info.plist */,
 			);
 			path = HW2OfirGoren;
+			sourceTree = "<group>";
+		};
+		66FD088E282E3CFD00F2985A /* UiButtons */ = {
+			isa = PBXGroup;
+			children = (
+				66FD0882282D1ED300F2985A /* ShapeButton.swift */,
+			);
+			path = UiButtons;
+			sourceTree = "<group>";
+		};
+		66FD0891282E3D4000F2985A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				66FD0888282D437000F2985A /* GameController.swift */,
+				66FD088A282D492300F2985A /* StartController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		66FD0893282E3DD300F2985A /* UiUtils */ = {
+			isa = PBXGroup;
+			children = (
+				66FD0894282E3DE600F2985A /* UiProgressBar */,
+				66FD088E282E3CFD00F2985A /* UiButtons */,
+			);
+			path = UiUtils;
+			sourceTree = "<group>";
+		};
+		66FD0894282E3DE600F2985A /* UiProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				66FD0880282D0C5D00F2985A /* ScaleProgressBar.swift */,
+			);
+			path = UiProgressBar;
+			sourceTree = "<group>";
+		};
+		66FD0896282E3E5700F2985A /* UtilsExtentios */ = {
+			isa = PBXGroup;
+			children = (
+				66FD088C282D50CB00F2985A /* Extensions.swift */,
+			);
+			path = UtilsExtentios;
+			sourceTree = "<group>";
+		};
+		905237E4F6A6BCE11D691DFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7ED4CC3EDC575346B30121E /* Pods_HW2OfirGoren.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD1FA6F79D70AF2D2CD95539 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9748FE04E197417C970981CB /* Pods-HW2OfirGoren.debug.xcconfig */,
+				2C0B6D3CDC742AE068AD00F9 /* Pods-HW2OfirGoren.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66FD087B282CECC800F2985A /* Build configuration list for PBXNativeTarget "HW2OfirGoren" */;
 			buildPhases = (
+				2DA3D4C5B0849D2EFD21DB63 /* [CP] Check Pods Manifest.lock */,
 				66FD0863282CECC700F2985A /* Sources */,
 				66FD0864282CECC700F2985A /* Frameworks */,
 				66FD0865282CECC700F2985A /* Resources */,
+				45FE9103A4C86DEA105D28D8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +234,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2DA3D4C5B0849D2EFD21DB63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HW2OfirGoren-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45FE9103A4C86DEA105D28D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HW2OfirGoren/Pods-HW2OfirGoren-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HW2OfirGoren/Pods-HW2OfirGoren-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HW2OfirGoren/Pods-HW2OfirGoren-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		66FD0863282CECC700F2985A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66FD086F282CECC700F2985A /* ViewController.swift in Sources */,
+				66FD089E282E51A300F2985A /* President.swift in Sources */,
+				66FD0883282D1ED300F2985A /* ShapeButton.swift in Sources */,
+				66FD089C282E474700F2985A /* GameHandler.swift in Sources */,
+				66FD0898282E3F5000F2985A /* PresidentsNames.swift in Sources */,
+				66FD08A02830E0AC00F2985A /* MyUserDefaults.swift in Sources */,
 				66FD086B282CECC700F2985A /* AppDelegate.swift in Sources */,
+				66FD0889282D437000F2985A /* GameController.swift in Sources */,
+				66FD088D282D50CB00F2985A /* Extensions.swift in Sources */,
+				66FD089A282E402600F2985A /* ParseJsonPresidents.swift in Sources */,
 				66FD086D282CECC700F2985A /* SceneDelegate.swift in Sources */,
+				66FD088B282D492300F2985A /* StartController.swift in Sources */,
+				66FD0881282D0C5D00F2985A /* ScaleProgressBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,11 +434,13 @@
 		};
 		66FD087C282CECC800F2985A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9748FE04E197417C970981CB /* Pods-HW2OfirGoren.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5X8937C6QS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HW2OfirGoren/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -309,11 +463,13 @@
 		};
 		66FD087D282CECC800F2985A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C0B6D3CDC742AE068AD00F9 /* Pods-HW2OfirGoren.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5X8937C6QS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HW2OfirGoren/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
