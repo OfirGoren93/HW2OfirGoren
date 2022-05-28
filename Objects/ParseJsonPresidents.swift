@@ -9,15 +9,15 @@ import Foundation
 
 class ParseJsonPresidents {
     
-   private let urlString = "https://api.jsonbin.io/b/627e020525069545a3348c20/2"
-    var isReadyToPlaycallBack: ((Bool,PresidentsNames) -> Void)? = nil
-    var presidentsNames: PresidentsNames = PresidentsNames()
+   private let urlString = "https://api.jsonbin.io/b/62908c14402a5b38021005e1/4"
+    var isReadyToPlaycallBack: ((Bool,Questions) -> Void)? = nil
+    var questions: Questions = Questions()
     init() {
         
     }
     
     
-    func getPresidentsNames( presidentsCallBack: @escaping (_ isReadyToPlay:Bool ,_ presidentsNames: PresidentsNames ) -> Void) {
+    func getPresidentsNames( presidentsCallBack: @escaping (_ isReadyToPlay:Bool ,_ presidentsNames: Questions ) -> Void) {
         
         isReadyToPlaycallBack = presidentsCallBack
         
@@ -38,8 +38,9 @@ class ParseJsonPresidents {
         if error == nil && data != nil {
             // parse JSON
             let decoder = JSONDecoder()
+            
             do {
-                presidentsNames = try decoder.decode(PresidentsNames.self, from: data!)
+                questions = try decoder.decode(Questions.self, from: data!)
                 isReadyToPlay = true
             }
                 catch  {
@@ -48,7 +49,7 @@ class ParseJsonPresidents {
                 }
             }
         if let isReadyToPlaycallBack = isReadyToPlaycallBack {
-            isReadyToPlaycallBack(isReadyToPlay , presidentsNames)
+            isReadyToPlaycallBack(isReadyToPlay , questions)
         }
         
         

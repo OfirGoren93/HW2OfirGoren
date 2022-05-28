@@ -7,8 +7,16 @@
 
 import Foundation
 
-class PresidentsNames:Codable {
+class Questions:Codable {
     
-    var presidentsNames:[String]?
+    var questions:[President]?
+    
+    
+    init(){
+        
+    }
+    
     
 }
+
+

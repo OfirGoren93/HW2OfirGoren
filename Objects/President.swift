@@ -7,17 +7,18 @@
 
 import Foundation
 
-class President {
+class President:Codable {
     
-    var photoStrUrl:String?
-    var name:String?
+    var url:String?
+    var currectAnswer:String?
+    var answers:[String]?
     
-    
-    init(_ photoStrUrl:String? , _ name:String?) {
-        self.photoStrUrl = photoStrUrl
-        self.name = name
+   
+    init()
+    {
+        
     }
-     
+
   
     
 }

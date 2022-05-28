@@ -76,11 +76,11 @@ class GameController: UIViewController {
         let url = URL(string:gameHandler.getPresidentPicture() ?? "")
         famousImage.kf.setImage(with: url)
         
-        let quentios = gameHandler.getQuestions()
-        topLeftBtn.setTitle(quentios[0], for: [])
-        topRightBtn.setTitle(quentios[1], for: [])
-        leftButtomBtn.setTitle(quentios[2], for: [])
-        rightButtomBtn.setTitle(quentios[3], for: [])
+        let quentios = gameHandler.getAnswers()
+        topLeftBtn.setTitle(quentios?[0], for: [])
+        topRightBtn.setTitle(quentios?[1], for: [])
+        leftButtomBtn.setTitle(quentios?[2], for: [])
+        rightButtomBtn.setTitle(quentios?[3], for: [])
         
     }
     

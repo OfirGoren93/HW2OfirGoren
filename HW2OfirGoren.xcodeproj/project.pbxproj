@@ -18,7 +18,7 @@
 		66FD0889282D437000F2985A /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FD0888282D437000F2985A /* GameController.swift */; };
 		66FD088B282D492300F2985A /* StartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FD088A282D492300F2985A /* StartController.swift */; };
 		66FD088D282D50CB00F2985A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FD088C282D50CB00F2985A /* Extensions.swift */; };
-		66FD0898282E3F5000F2985A /* PresidentsNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FD0897282E3F5000F2985A /* PresidentsNames.swift */; };
+		66FD0898282E3F5000F2985A /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FD0897282E3F5000F2985A /* Questions.swift */; };
 		66FD089A282E402600F2985A /* ParseJsonPresidents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FD0899282E402600F2985A /* ParseJsonPresidents.swift */; };
 		66FD089C282E474700F2985A /* GameHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FD089B282E474700F2985A /* GameHandler.swift */; };
 		66FD089E282E51A300F2985A /* President.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FD089D282E51A300F2985A /* President.swift */; };
@@ -39,7 +39,7 @@
 		66FD0888282D437000F2985A /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
 		66FD088A282D492300F2985A /* StartController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartController.swift; sourceTree = "<group>"; };
 		66FD088C282D50CB00F2985A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		66FD0897282E3F5000F2985A /* PresidentsNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresidentsNames.swift; sourceTree = "<group>"; };
+		66FD0897282E3F5000F2985A /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
 		66FD0899282E402600F2985A /* ParseJsonPresidents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseJsonPresidents.swift; sourceTree = "<group>"; };
 		66FD089B282E474700F2985A /* GameHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameHandler.swift; sourceTree = "<group>"; };
 		66FD089D282E51A300F2985A /* President.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = President.swift; sourceTree = "<group>"; };
@@ -63,7 +63,7 @@
 		66A0D51D283A914D0006B19B /* Objects */ = {
 			isa = PBXGroup;
 			children = (
-				66FD0897282E3F5000F2985A /* PresidentsNames.swift */,
+				66FD0897282E3F5000F2985A /* Questions.swift */,
 				66FD0899282E402600F2985A /* ParseJsonPresidents.swift */,
 				66FD089B282E474700F2985A /* GameHandler.swift */,
 				66FD089D282E51A300F2985A /* President.swift */,
@@ -284,7 +284,7 @@
 				66FD089E282E51A300F2985A /* President.swift in Sources */,
 				66FD0883282D1ED300F2985A /* ShapeButton.swift in Sources */,
 				66FD089C282E474700F2985A /* GameHandler.swift in Sources */,
-				66FD0898282E3F5000F2985A /* PresidentsNames.swift in Sources */,
+				66FD0898282E3F5000F2985A /* Questions.swift in Sources */,
 				66FD08A02830E0AC00F2985A /* MyUserDefaults.swift in Sources */,
 				66FD086B282CECC700F2985A /* AppDelegate.swift in Sources */,
 				66FD0889282D437000F2985A /* GameController.swift in Sources */,
